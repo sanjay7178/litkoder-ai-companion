@@ -1,0 +1,2 @@
+chrome.runtime.onMessage.addListener((function(e,t,o){if("scrape"===e.action){const e=document.querySelector(".problem-statement-box");document.querySelectorAll(".problem-statement-box code"),document.querySelectorAll(".problem-statement-box p"),o({data:{problemStatement:e?e.innerText:"Problem statement not found"}})}}));
+//# sourceMappingURL=content-0.js.map

@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "litcoder-scam",
+  "description": "A minimum extension template. This template includes a manifest file.",
+  "author": "Your Name",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "action/default_popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "draggable_popup.html",
+        "content_scripts/content-0.css"
+      ],
+      "matches": [
+        "https://litcoder.in/candidate/labs/*"
+      ]
+    },
+    {
+      "resources": [
+        "/*.json",
+        "/*.js",
+        "/*.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://litcoder.in/candidate/labs/*"
+      ],
+      "js": [
+        "content_scripts/content-0.js"
+      ],
+      "css": []
+    }
+  ],
+  "background": {
+    "service_worker": "background/service_worker.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
