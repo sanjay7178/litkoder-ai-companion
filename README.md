@@ -1,6 +1,9 @@
 # litcoder-scam
 Demo
-[Screencast from 10-20-2024 05:42:30 PM.webm](https://github.com/user-attachments/assets/44d45a09-334f-41e0-853e-d823ec722121)
+
+![Screencastfrom10-20-2024054230PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d06cbf30-5be7-4a21-82e8-4f97e26a5f77)
+
+
 
 > A minimum extension template. This template includes a manifest file.
 
