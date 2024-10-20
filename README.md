@@ -1,4 +1,6 @@
 # litcoder-scam
+Demo
+[Screencast from 10-20-2024 05:42:30 PM.webm](https://github.com/user-attachments/assets/44d45a09-334f-41e0-853e-d823ec722121)
 
 > A minimum extension template. This template includes a manifest file.
 
