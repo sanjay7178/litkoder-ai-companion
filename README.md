@@ -1,7 +1,7 @@
 # litcoder-scam
 Demo
 
-![Screencastfrom10-20-2024054230PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d06cbf30-5be7-4a21-82e8-4f97e26a5f77)
+![Demo](https://github.com/user-attachments/assets/16ce9509-0a1b-42bd-8ce2-150dd77fdac6)
 
 
 
